@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>eshtaUNI</artifactId>
+        <groupId>com.UNI</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.UNI</groupId>
+    <artifactId>eshtaUNI.ws-service-api</artifactId>
+    <packaging>jar</packaging>
+    <name>WSApp Web Service API Module</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.UNI</groupId>
+            <artifactId>eshtaUNI.dto</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        
+        <dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-test</artifactId>
+	<version>2.5</version>
+</dependency>
+            
+    </dependencies>
+    
+     <!-- <plugins>  
+            <plugin>  
+                <groupId>org.apache.maven.plugins</groupId>  
+                <artifactId>maven-compiler-plugin</artifactId>  
+                <version>3.1</version>  
+            </plugin>  
+              
+            <plugin>  
+                <groupId>org.codehaus.mojo</groupId>  
+                <artifactId>exec-maven-plugin</artifactId>  
+                <version>1.2.1</version>  
+                <executions>  
+                    <execution>  
+                        <goals>  
+                            <goal>java</goal>  
+                        </goals>  
+                        <configuration>  
+                            <mainClass>org.basicdesigns.restfulneo4j.App</mainClass>  
+                        </configuration>  
+                    </execution>  
+                </executions>  
+            </plugin>  
+              
+            <plugin>  
+                <groupId>org.apache.maven.plugins</groupId>  
+                <artifactId>maven-failsafe-plugin</artifactId>  
+                <version>2.16</version>  
+                <executions>  
+                    <execution>  
+                        <id>integration-test</id>  
+                        <goals>  
+                            <goal>integration-test</goal>  
+                            <goal>verify</goal>  
+                        </goals>  
+                    </execution>  
+                </executions>  
+            </plugin>  
+        </plugins>   -->
+</project>

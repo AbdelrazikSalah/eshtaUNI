@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Abdelrazik-Salah-VNC-VM" name="test.EmployeeWsUnitTest" tests="2" failures="0" timestamp="28 Apr 2014 13:17:45 GMT" time="0.024" errors="0">
+  <testcase name="TestgetEmpByFirstname" time="0.008" classname="test.EmployeeWsUnitTest">
+    <skipped/>
+  </testcase>
+  <testcase name="TestgetEmpByID" time="0.0" classname="test.EmployeeWsUnitTest">
+    <skipped/>
+  </testcase>
+</testsuite>
